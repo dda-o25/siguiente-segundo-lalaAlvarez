@@ -20,7 +20,7 @@ if segundos > 59:
     if minutos > 59:
         minutos = 0
         horas += 1
-        if horas > 24:
+        if horas >= 24:
             horas = 0
 
 horaF = horas
