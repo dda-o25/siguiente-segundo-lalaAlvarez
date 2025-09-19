@@ -7,9 +7,9 @@ Marco Fabricio Azpeitia Castellanos 765168
 """
 
 # Entradas
-horas = int(input("Ingrese las horas: "))
-minutos = int(input("Ingrese los minutos: "))
-segundos = int(input("Ingrese los segundos: "))
+horas = int(input("Hora: "))
+minutos = int(input("Minuto: "))
+segundos = int(input("Segundo: "))
 
 
 # Proceso
@@ -23,9 +23,13 @@ if segundos > 59:
         if horas > 24:
             horas = 0
 
-hora_final = " Hora: " + str(horas) + "\n Minutos: " + str(minutos) + "\n Segundos: " + str(segundos)
+horaF = horas
+minutoF = minutos
+segundoF = segundos
 
 # Salidas
 print("\n")
 print("Hora final: " )
-print(hora_final)
+print("Hora: " + str(horaF))
+print("Minuto: " + str(minutos))
+print("Segundo: " + str(segundos))
