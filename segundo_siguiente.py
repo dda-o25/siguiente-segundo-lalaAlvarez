@@ -1,9 +1,7 @@
 """
 Larisa Carolina Alvarez Gonzalez 763374
-Ximena Castro Lopez 743955
-Angelica Ibarra Diaz 761017
-Marco Fabricio Azpeitia Castellanos 765168
-
+19/09/2025
+Calcular la hora correspondiente al segundo siguiente
 """
 
 # Entradas
@@ -28,7 +26,6 @@ minutoF = minutos
 segundoF = segundos
 
 # Salidas
-print("\n")
 print("Hora final: " )
 print("Hora: " + str(horaF))
 print("Minuto: " + str(minutos))
